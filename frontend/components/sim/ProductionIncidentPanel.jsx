@@ -27,7 +27,6 @@ function formatTime(secs) {
   const s = (secs % 60).toString().padStart(2, '0')
   return `${m}:${s}`
 }
-
 // ─────────────────────────────────────────────────────────────────────────────
 // Shared incident state — exported so any component can read it without
 // prop-drilling. Import { useIncidentState } wherever you need it.
@@ -49,7 +48,6 @@ function broadcast(next) {
   _sharedState = next
   _listeners.forEach(l => l(next))
 }
-
 // ─────────────────────────────────────────────────────────────────────────────
 export default function ProductionIncidentPanel() {
   const { user } = useAuthStore()
