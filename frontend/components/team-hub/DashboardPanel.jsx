@@ -9,3 +9,4 @@ export default function DashboardPanel({ title, description, children, tone = 'w
     </section>
   )
 }
+
