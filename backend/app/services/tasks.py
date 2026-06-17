@@ -2,7 +2,6 @@
 backend/app/routers/tasks.py
 ─────────────────────────────
 Task endpoints for the intern-facing dashboard.
-
 FIXES applied:
 
   1. _get_active_project_id — two flat queries only, no nested PostgREST joins.
@@ -33,7 +32,6 @@ FIXES applied:
      on top of the missing-sprint-id fallback so CCR tasks always resolve to the
      correct real sprint before firing mid-sprint change and adaptive engine.
 """
-
 from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
 from app.core.auth import get_current_user
 from app.core.database import db, supabase_admin
