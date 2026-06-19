@@ -1,7 +1,6 @@
 # InternX multiplayer project model
 
 ## Core change
-
 Single-player InternX used one `project_id` per profile and cloned a private copy of the same project for every user. That does not work once the same project template needs multiple interns in different roles, and once the same template can run for many parallel teams.
 
 The backend now targets this model:
