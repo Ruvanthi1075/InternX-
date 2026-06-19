@@ -7,17 +7,17 @@ This scaffold adds the basic folder structure and starter files needed for the n
 ```text
 frontend/app/
 +-- dashboard/
-¦   +-- layout.jsx
-¦   +-- page.jsx
-¦   +-- analytics/page.jsx
-¦   +-- calendar/page.jsx
-¦   +-- chat/page.jsx
-¦   +-- guide/page.jsx
-¦   +-- profile/page.jsx
-¦   +-- report-user/page.jsx
-¦   +-- review/page.jsx
-¦   +-- setup/page.jsx
-¦   +-- teammates/page.jsx
+Â¦   +-- layout.jsx
+Â¦   +-- page.jsx
+Â¦   +-- analytics/page.jsx
+Â¦   +-- calendar/page.jsx
+Â¦   +-- chat/page.jsx
+Â¦   +-- guide/page.jsx
+Â¦   +-- profile/page.jsx
+Â¦   +-- report-user/page.jsx
+Â¦   +-- review/page.jsx
+Â¦   +-- setup/page.jsx
+Â¦   +-- teammates/page.jsx
 +-- page.jsx
 +-- projects/next/page.jsx
 
@@ -34,10 +34,10 @@ frontend/lib/
 ```text
 backend/app/
 +-- routers/
-¦   +-- github.py
-¦   +-- team_hub.py
+Â¦   +-- github.py
+Â¦   +-- team_hub.py
 +-- schemas/
-¦   +-- team_hub.py
+Â¦   +-- team_hub.py
 +-- services/
     +-- team_hub.py
 ```
@@ -63,3 +63,4 @@ backend/app/
 2. Connect `backend/app/routers/github.py` to a real GitHub PAT or GitHub App flow.
 3. Persist team templates, sprint events, reports, and project completions in Supabase tables.
 4. Add `.vscode` template files to the generated team repositories during automation.
+
