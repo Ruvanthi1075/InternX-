@@ -28,3 +28,4 @@ services:
         value: production
       - key: FRONTEND_URL
         sync: false
+
