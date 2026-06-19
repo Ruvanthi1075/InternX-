@@ -27,7 +27,6 @@ from app.core.database import db
 security = HTTPBearer()
 security_optional = HTTPBearer(auto_error=False)
 
-
 def create_access_token(user_id: str, role: str, email: str) -> str:
     """
     Creates a signed JWT token.
@@ -42,7 +41,6 @@ def create_access_token(user_id: str, role: str, email: str) -> str:
         "exp": expire,        # expiry — JWT library checks this automatically
     }
     return jwt.encode(payload, settings.jwt_secret, algorithm=settings.jwt_algorithm)
-
 
 def decode_token(token: str) -> dict:
     """
