@@ -2,6 +2,7 @@
 
 InternX CLI — Setup projects instantly, submit PRs for AI review.
 
+
 ## Install (once)
 
 ```bash
