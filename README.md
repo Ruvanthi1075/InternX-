@@ -15,6 +15,7 @@ A full-stack platform that simulates real corporate internship experiences for s
 | CI/CD | GitHub Actions | 2000 min/month free |
 | Hosting | Vercel (FE) + local/Render (BE) | Free |
 
+
 ## Project Structure
 
 ```
